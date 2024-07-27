@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 4. Create a `.env` file in the root directory and add your configuration:
    ```
-   REACT_APP_API_URL=your_api_url_here
+   GROQ_API_KEY=your-api-key
    ```
 
 5. Start the development server:
@@ -51,7 +51,7 @@ The app should now be running on [http://localhost:3000](http://localhost:3000).
 
 This project is designed to work with any compatible chat API. To integrate your own backend:
 
-1. Update the `REACT_APP_API_URL` in the `.env` file to point to your API.
+1. Update the `GROQ_API_KEY` in the `.env` file to point to your API.
 2. Modify the `sendMessage` function in `GroqChatApp.js` to match your API's request/response format.
 
 ## Contributing
